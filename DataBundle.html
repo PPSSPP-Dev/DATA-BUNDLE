@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Data Bundle - Fast & Affordable Data</title>
+  <!-- We will link our CSS file here in the next step -->
+  <link rel="stylesheet" href="Bundle.css">
+</head>
+<body>
+
+  <!-- 1. HEADER & NAVIGATION -->
+  <header>
+    <div class="logo">
+      <h1>QuickData</h1>
+    </div>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#networks">Networks</a></li>
+        <li><a href="#order">Buy Data</a></li>
+        <li><a href="#contact">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 2. MAIN CONTENT -->
+  <main id="home">
+    
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <h2>Instant & Affordable Data Bundles</h2>
+      <p>Stay connected anytime, anywhere. Fast delivery across all major networks at unbeatable prices.</p>
+      <a href="#order" class="cta-button">Buy Data Now</a>
+    </section>
+    <!-- 3. NETWORK CARDS SECTION -->
+    <section id="networks" class="networks">
+      <h2>Choose Your Network</h2>
+      <div class="network-grid">
+        
+        <div class="card">
+          <h3>MTN</h3>
+          <p>Fast and reliable non-expiry data bundles.</p>
+        </div>
+
+        <div class="card">
+          <h3>Telecel</h3>
+          <p>Affordable daily, weekly, and monthly plans.</p>
+        </div>
+
+        <div class="card">
+          <h3>AirtelTigo</h3>
+          <p>Instant BigTime & iShare data delivery.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. ORDER FORM SECTION -->
+    <section id="order" class="order-section">
+      <h2>Purchase Data Bundle</h2>
+      <form action="#" method="POST">
+        
+        <div class="form-group">
+          <label for="network-select">Select Network:</label>
+          <select id="network-select" name="network" required>
+            <option value="">-- Choose a Provider --</option>
+            <option value="mtn">MTN</option>
+            <option value="telecel">Telecel</option>
+            <option value="airteltigo">AirtelTigo</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="bundle-select">Select Data Package:</label>
+          <select id="bundle-select" name="bundle" required>
+            <option value="">-- Choose a Package --</option>
+            <option value="1gb">1 GB - GHS 6.00</option>
+            <option value="2gb">2 GB - GHS 12.00</option>
+            <option value="5gb">5 GB - GHS 28.00</option>
+            <option value="10gb">10 GB - GHS 52.00</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Recipient Phone Number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="e.g. 0241234567" required>
+        </div>
+
+        <button type="submit" class="submit-btn">Proceed to Pay</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- 5. FOOTER -->
+  <footer id="contact">
+    <p>&copy; 2026 QuickData. All rights reserved.</p>
+    <p>Need help? Contact Support on WhatsApp.</p>
+  </footer>
+
+</body>
+</html>
+
+  </main>
+
+</body>
+</html>
